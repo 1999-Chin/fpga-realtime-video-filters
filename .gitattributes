@@ -1,0 +1,3 @@
+* text=auto eol=lf
+*.xci text eol=lf
+*.bit binary
