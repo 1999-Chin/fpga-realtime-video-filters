@@ -84,9 +84,7 @@ make WAVES=1                # also dump a waveform (sim_build/*.fst) for GTKWave
 
 ## Known limitations
 
-- The colour path is a couple of 25 MHz cycles behind the sync signals: the BRAM IP has its output register enabled (2-cycle read latency, while `vga.v` compensates for 1) and `filter.v` adds another register stage. On screen this is a shift of about one buffer pixel; delaying `hsync`/`vsync` by the same number of cycles would align them exactly.
-- `sccb.v` does not check the camera's ACK bits.
-- The `reset` input is constrained to a button but not used.
+- The image is shifted horizontally and wraps around. Narrow strip from the right edge of the video shows up at the left edge of the screen
 - The testbenches are smoke tests, not full coverage (e.g. no full-frame VGA timing check, no SCCB bit-level check).
 
 ## Team
