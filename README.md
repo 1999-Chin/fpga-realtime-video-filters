@@ -92,4 +92,4 @@ make WAVES=1                # also dump a waveform (sim_build/*.fst) for GTKWave
 <!-- TODO: fill in names and confirm everyone is happy with the repo being public -->
 - [@1999-Chin](https://github.com/1999-Chin): architecture, frame buffer, VGA output, filters
 - [@pedigree-pp](https://github.com/pedigree-pp): camera capture, testbenches
-- [@praisepany] (https://github.com/praisepany): SCCB camera configuration
+- [@praisepany](https://github.com/praisepany): SCCB camera configuration
